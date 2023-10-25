@@ -1,12 +1,25 @@
 /*  your css code here. If applicable */
-.nav-bar{
-	background:#D3D3D3;
-	padding:10px;
-	
+/* Style for the navigation bar */
+.nav-bar {
+    background-color: #D3D3D3;
+    padding: 10px;
 }
 
-nav>ul>li{
-	list-style:none;
-	display:inline;
-	margin-right:1rem;
+/* Style for the navigation bar list */
+.nav-bar ul {
+    list-style: none;
+    padding: 0;
 }
+
+/* Style for the navigation bar list items */
+.nav-bar ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+/* Style for the navigation bar links */
+.nav-bar ul li a {
+    text-decoration: none;
+    color: black; /* You can change the link color as per your preference */
+}
+
