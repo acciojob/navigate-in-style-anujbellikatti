@@ -6,13 +6,14 @@
 
 /* Style for the list within the navigation bar */
 .container ul {
+	display:flex;
     list-style: none; /* Remove bullets */
     padding: 0;
 }
 
 /* Style for list items */
 .container li {
-    display:inine;
+    display:inline;
     margin-right: 1rem;
 }
 
